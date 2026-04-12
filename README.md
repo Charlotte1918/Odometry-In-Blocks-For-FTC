@@ -4,7 +4,7 @@
 
 This is an example of an autonomous program using odometry in blocks for an FTC robot. I will also explain to you how to set it up.
 
-The programmer (Me) and coaches of teams 18013, Cuivre et Or, and 28444, Or et Cuivre, are whos built it. 
+The programmer (Me) and coaches of teams 18013, Cuivre et Or, and 28444, Or et Cuivre, are the ones who built it. 
 
 ## Notice
 
@@ -44,15 +44,15 @@ Check your telemetry and if your x **and** y is about or below 1 or 2 (it depens
 
 At this point, the only thing you left to do is opening it and transforming it to your liking.
 
-The INIT and configurePinpoint probably are the first thing you will want to change
+The INIT and configurePinpoint probably are the first thing you will want to change to adapt to your robot
 
 I highly suggest you read it to understand how it works and the comments are there for that. 
 
 
 ## Needing Help ?
 
-If you have any question, write to charlottedube28@gmail.com. I will try to respond to them as fast as possible.
+If you have any question, comment or correction, write to charlottedube28@gmail.com. I will try to respond to them as fast as possible.
 
 ## Credits
 
-This structure of program has been made with the
+This structure of program has been made with the sample code 'NAME OF THE SAMPLE CODE' and a few brains.
