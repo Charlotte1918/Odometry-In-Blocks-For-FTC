@@ -38,7 +38,7 @@ Be careful. X is Drive, Y is Strafe, unlike a cartesian plane.
 
 To test it, get the Telemetry program or the sample code 'NAME OF THE SAMPLE CODE' and enter your offsets in the setOffsets block in configurePinpoint. Save and start the program on the robot, then turn it on itself for 90° (by hand). 
 
-Check your telemetry and if your x **and** y is about or below 1 or 2 (it depens on how precise you want it to be), you're good to go. If not, your offsets are probably a little off.
+Check your telemetry and if your X **and** Y is about or below 1 or 2 (it depens on how precise you want it to be), you're good to go. If not, your offsets are probably a little off.
 
 ## Using The Program
 
