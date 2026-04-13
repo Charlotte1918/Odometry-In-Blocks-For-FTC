@@ -34,7 +34,7 @@ For the program to work, you must get precise offsets. To do so, I encourage fol
 
 https://www.gobilda.com/content/user_manuals/3110-0002-0001%20User%20Guide.pdf?srsltid=AfmBOoolCZSwyMuHyi-De29eOTaPhWy-GbPwBJoOZ0nVouGU2PVgIKZN
 
-Be careful. X is Drive, Y is Strafe, unlike in a cartesian plane. 
+Be careful. X is Drive, Y is Strafe, unlike a cartesian plane. 
 
 To test it, get the Telemetry program or the sample code 'NAME OF THE SAMPLE CODE' and enter your offsets in the setOffsets block in configurePinpoint. Save and start the program on the robot, then turn it on itself for 90° (by hand). 
 
