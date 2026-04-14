@@ -36,7 +36,7 @@ https://www.gobilda.com/content/user_manuals/3110-0002-0001%20User%20Guide.pdf?s
 
 Be careful. X is Drive, Y is Strafe, unlike a cartesian plane. 
 
-To test it, get the Telemetry program or the sample code 'NAME OF THE SAMPLE CODE' and enter your offsets in the setOffsets block in configurePinpoint. Save and start the program on the robot, then turn it on itself for 90° (by hand). 
+To test it, get the Telemetry program or the sample code SensorGoBilda and enter your offsets in the setOffsets block in configurePinpoint. Save and start the program on the robot, then turn it on itself for 90° (by hand). 
 
 Check your telemetry and if your X **and** Y is about or below 1 or 2 (it depens on how precise you want it to be), you're good to go. If not, your offsets are probably a little off.
 
@@ -55,4 +55,4 @@ If you have any question, comment or correction, write to charlottedube28@gmail.
 
 ## Credits
 
-This structure of program has been made with the sample code 'NAME OF THE SAMPLE CODE' and a few brains.
+This structure of program has been made with the sample code SensorGoBildaPinpoint and a few brains.
