@@ -23,7 +23,7 @@ https://www.gobilda.com/content/user_manuals/3110-0002-0001%20Blocks%20Guide%20A
 
 To get the program onto your robot, you shall :
 
-1. Download the program
+1. Download the program (https://github.com/Charlotte1918/Odometry-In-Blocks-For-FTC/blob/main/Exemple%20Auto-Odo%20avec%20Explications.blk)
 2. Connect to the robot wifi
 3. Go to the OpModes
 4. Upload the program
