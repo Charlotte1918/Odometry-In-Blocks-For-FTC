@@ -25,9 +25,6 @@ Nous avons utiliser deux 4-Bar Odometry Pods de goBILDA et le Pinpoint V2 Odomet
 
 You will need to have the blocks for odometry, else the program will be full of warnings and not working. You can go to the Blocks Guide from goBILDA for this part : 
 
-https://www.gobilda.com/content/user_manuals/3110-0002-0001%20Blocks%20Guide%20App%20Version%2010-1.pdf?srsltid=AfmBOoqKPiLcW0eiKlhGgq3n4wxlAwLzpu5UYEXKoOoTlBJTkuJ3Kwgq
-
-
 Vous allez avoir besoin des blocks pour l'odométrie, sinon le programme va être plein d'erreurs et ne fonctionnera pas. Vous pouvez aller au guide de Blocks de goBILDA pour cette partie :
 
 https://www.gobilda.com/content/user_manuals/3110-0002-0001%20Blocks%20Guide%20App%20Version%2010-1.pdf?srsltid=AfmBOoqKPiLcW0eiKlhGgq3n4wxlAwLzpu5UYEXKoOoTlBJTkuJ3Kwgq
@@ -68,21 +65,33 @@ https://www.gobilda.com/content/user_manuals/3110-0002-0001%20User%20Guide.pdf?s
 
 Faites attention. X est Drive, Y est Strafe, contrairement à un plan cartésien.
 
-Pour le tester, utilisez Telemetry odometrie ou le sample code SensorGoBilda (Vous allez devoir ajouter de la télémétrie pour celui là) et entrer vos offsets dans le block set Offsets dans configurePinpoint. Sauvegarder
+Pour le tester, utilisez Telemetry odometrie ou le sample code SensorGoBilda (Vous allez devoir ajouter de la télémétrie pour celui là) et entrer vos offsets dans le block set Offsets dans configurePinpoint. Sauvegardez et partez le programme, puis tourner le robot sur lui-même à 90° (à la main).
 
-## Using The Program
+Checkez la télémétrie et si X **et** Y est environ ou en dessous de 1 ou 2 (Dépendamment de à quel point vous voulez que ce soit précis), vous êtes prêt à partir. Sinon, vos offsets sont probablement un peu décalés.
+
+## Using The Program / Utiliser le programme
 
 At this point, the only thing you left to do is opening it and transforming it to your liking.
 
-The INIT and configurePinpoint probably are the first thing you will want to change to adapt to your robot
+The INIT and configurePinpoint probably are the first things you will want to change to adapt to your robot
 
-I highly suggest you read it to understand how it works and the comments are there for that. 
+I highly suggest you read the program thoroughly to understand how it works. Comments are there to help you. 
 
 
-## Needing Help ?
+À ce stade, la seule chose restante à faire est de l'ouvrir et de le modifier à votre convenance.
 
-If you have any question, comment or correction, write to charlottedube28@gmail.com.
+L'INIT et configurePinpoint sont probablement les premières choses que vous aller vouloir modifier pour adapter votre robot.
 
-## Credits
+Je suggeste fortement que vous lisez le programme entièrement pour comprendre comment il fonctionne. Des commentaires sont là pour vous aider.
 
-This structure of program has been made with the sample code SensorGoBildaPinpoint and a few brains.
+## Needing Help ? / Besoin d'aide ?
+
+If you have any question, comment, correction or something else that you want to share to me, write to charlottedube28@gmail.com.
+
+Si vous avez une question, un commentaire, une correction, ou autre que vous voudriez me partager, écrivez moi à charlottedube28@gmail.com
+
+## Credits / Crédits
+
+This program has been made with the sample code SensorGoBildaPinpoint, time, patience and a few brains.
+
+Le programme a été fait avec le sample code SensorGoBildaPinpoint, du temps, de la patience et quelques cerveaux.
