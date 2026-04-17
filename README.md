@@ -6,6 +6,7 @@ This is an example of an autonomous program using odometry in blocks for an FTC 
 
 The programmer (Me) and coaches of teams 18013, Cuivre et Or, and 28444, Or et Cuivre, are the ones who built it. 
 
+.
 
 Ceci est un exemple d'un programme autonome en blocks utilisant de l'odométrie pour un robot FTC. Je vais aussi vous expliquer comment le mettre en place.
 
