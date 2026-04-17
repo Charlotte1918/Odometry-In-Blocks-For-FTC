@@ -84,7 +84,7 @@ L'INIT et configurePinpoint sont probablement les premières choses que vous all
 
 Je suggeste fortement que vous lisez le programme entièrement pour comprendre comment il fonctionne. Des commentaires sont là pour vous aider.
 
-## Needing Help ? / Besoin d'aide ?
+## Need to contact me ? / Besoin de me contacter ?
 
 If you have any question, comment, correction or something else that you want to share to me, write to charlottedube28@gmail.com.
 
