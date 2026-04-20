@@ -17,6 +17,7 @@ La programmeuse (Moi) et les coachs des équipes 18013, Cuivre et Or, et 28444, 
 We used two goBILDA 4-Bar Odometry Pods and the Pinpoint V2 Odometry Computer with this program and didn't tried with other systems of odometry.
 As such, the explainations below will be for these.
 
+.
 
 Nous avons utiliser deux 4-Bar Odometry Pods de goBILDA et le Pinpoint V2 Odometry Computer avec ce programme et n'avons essayé avec d'autres systèmes d'odometrie.
 
@@ -26,7 +27,11 @@ Nous avons utiliser deux 4-Bar Odometry Pods de goBILDA et le Pinpoint V2 Odomet
 
 You will need to have the blocks for odometry, else the program will be full of warnings and not working. You can go to the Blocks Guide from goBILDA for this part : 
 
+.
+
 Vous allez avoir besoin des blocks pour l'odométrie, sinon le programme va être plein d'erreurs et ne fonctionnera pas. Vous pouvez aller au guide de Blocks de goBILDA pour cette partie :
+
+.
 
 https://www.gobilda.com/content/user_manuals/3110-0002-0001%20Blocks%20Guide%20App%20Version%2010-1.pdf?srsltid=AfmBOoqKPiLcW0eiKlhGgq3n4wxlAwLzpu5UYEXKoOoTlBJTkuJ3Kwgq
 
@@ -39,6 +44,7 @@ To get the program onto your robot, you shall :
 3. Go to the OpModes
 4. Upload the program
 
+.
 
 Pour avoir le programme sur le robot, vous allez devoir :
 
@@ -59,6 +65,7 @@ To test it, get the Telemetry odometrie program or the sample code SensorGoBilda
 
 Check your telemetry and if your X **and** Y is about or below 1 or 2 (it depens on how precise you want it to be), you're good to go. If not, your offsets are probably a little off.
 
+.
 
 Pour que le programme fonctionne, vous allez avoir besoin d'offsets précis. Pour les trouver, je recommande suivre le Odometry Computer User Guide :
 
@@ -78,6 +85,7 @@ The INIT and configurePinpoint probably are the first things you will want to ch
 
 I highly suggest you read the program thoroughly to understand how it works. Comments are there to help you. 
 
+.
 
 À ce stade, la seule chose restante à faire est de l'ouvrir et de le modifier à votre convenance.
 
@@ -89,10 +97,14 @@ Je suggeste fortement que vous lisez le programme entièrement pour comprendre c
 
 If you have any question, comment, correction or something else that you want to share to me, write to charlottedube28@gmail.com.
 
+.
+
 Si vous avez une question, un commentaire, une correction, ou autre que vous voudriez me partager, écrivez moi à charlottedube28@gmail.com
 
 ## Credits / Crédits
 
 This program has been made with the sample code SensorGoBildaPinpoint, time, patience and a few brains.
+
+.
 
 Le programme a été fait avec le sample code SensorGoBildaPinpoint, du temps, de la patience et quelques cerveaux.
