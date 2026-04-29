@@ -103,8 +103,8 @@ Si vous avez une question, un commentaire, une correction, ou autre que vous vou
 
 ## Credits / Crédits
 
-This program has been made with the sample code SensorGoBildaPinpoint, time, patience and a few brains.
+This program has been made with the sample code SensorGoBildaPinpoint, time, patience and the brains of Sébastien Lampron, Noralie Bouffard and Charlotte Dubé.
 
 .
 
-Le programme a été fait avec le sample code SensorGoBildaPinpoint, du temps, de la patience et quelques cerveaux.
+Le programme a été fait avec le sample code SensorGoBildaPinpoint, du temps, de la patience et les cerveaux de Sébastien Lampron, Noralie Bouffard et Charlotte Dubé.
