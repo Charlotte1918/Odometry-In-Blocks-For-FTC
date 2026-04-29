@@ -1,0 +1,710 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+<variables>
+<variable id="jm@CNAmG1=5(Tl4bFvS7">DESIRED_YAW</variable>
+<variable id="3:!{1A/xy*YG)v`}P4vd">Yaw</variable>
+<variable id="(S4L[Yz*TPg$3L626Z4(">DESIRED_X</variable>
+<variable id="Wv4Vktwt~@]^Y^g,N:jr">X</variable>
+<variable id="aCJ.DCA~SE#Z3v*SODn@">Y</variable>
+<variable id="S}wln[:3kH.?7@4@fXHE">DESIRED_Y</variable>
+<variable id="8c$q`5z(R/%v8)eS9:Z4">Yaw_Pinpoint</variable>
+<variable id="J!^^Clmk/Yk?bJq!j6c}">X_Pinpoint</variable>
+<variable id=",)CZscs+IEktAhsn}28[">Y_Pinpoint</variable>
+</variables>
+<block type="procedures_defnoreturn" id="m_)Ax=d`ZI67Y}Ni%A@%" x="-949" y="78">
+<field name="NAME">Telemetrie</field>
+<comment pinned="false" h="80" w="160">Describe this function...</comment>
+<statement name="STACK">
+<block type="telemetry_addLine" id="Y[!w0(Y1JT0xa!(HkiEz">
+<value name="TEXT">
+<shadow type="text" id="Qs|DbxlxTh:%ON9^}]Bp">
+<field name="TEXT">From Pinpoint Blocks</field>
+</shadow>
+</value>
+<next>
+<block type="telemetry_addLine" id="171kk?b6p!27?,;wuQyF">
+<value name="TEXT">
+<shadow type="text" id="LKXMifz7d6z5Ik]mFLK/">
+<field name="TEXT"/>
+</shadow>
+</value>
+<next>
+<block type="telemetry_addNumericData_Number" id="Y{@OaP%jdo_{/3O_v,Qi">
+<value name="KEY">
+<shadow type="text" id="`g}hK5u1#C]x-AHs(%Yg">
+<field name="TEXT">Y coordinate (cm)</field>
+</shadow>
+</value>
+<value name="NUMBER">
+<shadow type="math_number" id="$z:{bXxiQ3?*@H,Bxq;y">
+<field name="NUM">123</field>
+</shadow>
+<block type="variables_get" id="fO.btU=M+{[3B)`=C+k{">
+<field name="VAR" id="aCJ.DCA~SE#Z3v*SODn@">Y</field>
+</block>
+</value>
+<next>
+<block type="telemetry_addNumericData_Number" id="hx.O)halkX6t`J,TF/^G">
+<value name="KEY">
+<shadow type="text" id="?q#?ESX6Nn!n%goy.jn/">
+<field name="TEXT">X coordinate (cm)</field>
+</shadow>
+</value>
+<value name="NUMBER">
+<shadow type="math_number" id="5Hr-M5h?*NJeFERPPIl;">
+<field name="NUM">123</field>
+</shadow>
+<block type="variables_get" id="%C+RG]gQ;({n{9zKT{km">
+<field name="VAR" id="Wv4Vktwt~@]^Y^g,N:jr">X</field>
+</block>
+</value>
+<next>
+<block type="telemetry_addNumericData_Number" id="L~$BZl(u_]gI!$=-*++5">
+<value name="KEY">
+<shadow type="text" id="_+cVy3tF~9;%JKXvpPd8">
+<field name="TEXT">Heading angle (DEGREES)</field>
+</shadow>
+</value>
+<value name="NUMBER">
+<shadow type="math_number">
+<field name="NUM">123</field>
+</shadow>
+<block type="variables_get" id="s?u_(7RYMd4{:m`~PZjU">
+<field name="VAR" id="3:!{1A/xy*YG)v`}P4vd">Yaw</field>
+</block>
+</value>
+<next>
+<block type="telemetry_addLine" id="DS7rfK+?Qr/.(SCIb;7@">
+<value name="TEXT">
+<shadow type="text" id="Aaqm6s_bUi4_yw}yVzU3">
+<field name="TEXT"/>
+</shadow>
+</value>
+<next>
+<block type="telemetry_addLine" id="rJ25r=V~Lh.]ZrI;GY.f">
+<value name="TEXT">
+<shadow type="text" id="1O)ku5SBla)1/Y/l+nsd">
+<field name="TEXT">From Pods</field>
+</shadow>
+</value>
+<next>
+<block type="telemetry_addLine" id="n#y,Y9xNGZ|*MBShc1gF">
+<value name="TEXT">
+<shadow type="text" id="6~YOAy3@5NAi`Ft|o{jo">
+<field name="TEXT"/>
+</shadow>
+</value>
+<next>
+<block type="telemetry_addNumericData_Number" id="[S?Y8Ri}$!0*Z;A;D:SC">
+<value name="KEY">
+<shadow type="text" id="L(]z~oZ!JEgxe_o_2aIu">
+<field name="TEXT">Y coordinate (cm)</field>
+</shadow>
+</value>
+<value name="NUMBER">
+<shadow type="math_number">
+<field name="NUM">123</field>
+</shadow>
+<block type="variables_get" id="NaxF:%{-2W-u3E+Pv]M{">
+<field name="VAR" id=",)CZscs+IEktAhsn}28[">Y_Pinpoint</field>
+</block>
+</value>
+<next>
+<block type="telemetry_addNumericData_Number" id="k:)OXnAmX:}Sf$t1qTR;">
+<value name="KEY">
+<shadow type="text" id="C#ITv^3UEv6~rV(|Qb.b">
+<field name="TEXT">X coordinate (cm)</field>
+</shadow>
+</value>
+<value name="NUMBER">
+<shadow type="math_number">
+<field name="NUM">123</field>
+</shadow>
+<block type="variables_get" id="GXF5X/hfL~YvyKNpvx(2">
+<field name="VAR" id="J!^^Clmk/Yk?bJq!j6c}">X_Pinpoint</field>
+</block>
+</value>
+<next>
+<block type="telemetry_addNumericData_Number" id="hEHy8t0i3OhJO7uJ(jzw">
+<value name="KEY">
+<shadow type="text" id="c@mM`x-tY}DcE.bD*:E=">
+<field name="TEXT">Heading angle (DEGREES)</field>
+</shadow>
+</value>
+<value name="NUMBER">
+<shadow type="math_number">
+<field name="NUM">123</field>
+</shadow>
+<block type="variables_get" id="{OALtIP{KO|$|/=|X8%_">
+<field name="VAR" id="8c$q`5z(R/%v8)eS9:Z4">Yaw_Pinpoint</field>
+</block>
+</value>
+<next>
+<block type="telemetry_update" id="}TdkKaQZ!$Jo0K%n.~l7"/>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</statement>
+</block>
+<block type="procedures_defnoreturn" id="OFR1%@Zetv]Ooa?j@##R" x="-1561" y="209">
+<field name="NAME">INIT</field>
+<comment pinned="false" h="80" w="160">Describe this function...</comment>
+<statement name="STACK">
+<block type="procedures_callnoreturn" id="rwJ,u?RbRW4$c_3}h{ci">
+<mutation name="configurePinpoint"/>
+<next>
+<block type="variables_set" id="f^O6rwg?4I(HAMm;SuzT">
+<field name="VAR" id="jm@CNAmG1=5(Tl4bFvS7">DESIRED_YAW</field>
+<value name="VALUE">
+<block type="math_number" id="ZYixYR3n.V.4#*F``3}I">
+<field name="NUM">0</field>
+</block>
+</value>
+<next>
+<block type="variables_set" id=":L2-m.-c1s?qh]B@?4kf">
+<field name="VAR" id="(S4L[Yz*TPg$3L626Z4(">DESIRED_X</field>
+<value name="VALUE">
+<block type="math_number" id="syvb/Bcrb]pvhIhcYdTO">
+<field name="NUM">0</field>
+</block>
+</value>
+<next>
+<block type="variables_set" id="K}{5$=Nf%kwO-|a3k,O5">
+<field name="VAR" id="S}wln[:3kH.?7@4@fXHE">DESIRED_Y</field>
+<value name="VALUE">
+<block type="math_number" id="?qM;lg8Gz54Sc+SvP6K~">
+<field name="NUM">0</field>
+</block>
+</value>
+<next>
+<block type="goBildaPinpoint_setPosition" id="@@`[cguDaj*#%=dJ8!/=">
+<field name="IDENTIFIER">pinpointAsGoBildaPinpoint</field>
+<data>{"IDENTIFIER":"pinpoint"}</data>
+<value name="POSITION">
+<block type="pose2D_create" id="5P7}tx5`n}?;}M!xg9wE">
+<value name="DISTANCE_UNIT">
+<shadow type="navigation_typedEnum_distanceUnit" id="uA-LDw#=}(QL5m%9C_3m">
+<field name="DISTANCE_UNIT">CM</field>
+</shadow>
+</value>
+<value name="X">
+<shadow type="math_number">
+<field name="NUM">0</field>
+</shadow>
+<block type="variables_get" id=";Ur:~rAWXhP;z_j!Oc:#">
+<field name="VAR" id="(S4L[Yz*TPg$3L626Z4(">DESIRED_X</field>
+</block>
+</value>
+<value name="Y">
+<shadow type="math_number">
+<field name="NUM">0</field>
+</shadow>
+<block type="variables_get" id="^]pGGQjJb!4tkK%7v%lz">
+<field name="VAR" id="S}wln[:3kH.?7@4@fXHE">DESIRED_Y</field>
+</block>
+</value>
+<value name="HEADING_UNIT">
+<shadow type="navigation_typedEnum_angleUnit" id="e#13v]]7s0!m0.!C``%y">
+<field name="ANGLE_UNIT">DEGREES</field>
+</shadow>
+</value>
+<value name="HEADING">
+<shadow type="math_number">
+<field name="NUM">0</field>
+</shadow>
+<block type="variables_get" id="60HRld`_8NczPCYjkMX0">
+<field name="VAR" id="jm@CNAmG1=5(Tl4bFvS7">DESIRED_YAW</field>
+</block>
+</value>
+</block>
+</value>
+<next>
+<block type="procedures_callnoreturn" id="y!ScBwHGdmd{xt@wEEr/">
+<mutation name="Telemetrie"/>
+<next>
+<block type="dcMotor_setProperty_Direction" id="4H):U^b(?Y+YC3A|e8Ve">
+<field name="IDENTIFIER">avantgaucheAsDcMotor</field>
+<field name="PROP">Direction</field>
+<data>{"IDENTIFIER":"avantgauche"}</data>
+<value name="VALUE">
+<shadow type="dcMotor_typedEnum_direction" id="C9km.y_9v/OYg$b3d]0P">
+<field name="DIRECTION">REVERSE</field>
+</shadow>
+</value>
+<next>
+<block type="dcMotor_setProperty_Direction" id="Ll4{?REE=65):!}QC-0{">
+<field name="IDENTIFIER">arrieregaucheAsDcMotor</field>
+<field name="PROP">Direction</field>
+<data>{"IDENTIFIER":"arrieregauche"}</data>
+<value name="VALUE">
+<shadow type="dcMotor_typedEnum_direction" id="]6Xn9IMO]Wd=mR:k#x}]">
+<field name="DIRECTION">REVERSE</field>
+</shadow>
+</value>
+<next>
+<block type="dcMotor_setProperty_Direction" id="hw|O]W)[kUEg!!9xePU@">
+<field name="IDENTIFIER">avantdroiteAsDcMotor</field>
+<field name="PROP">Direction</field>
+<data>{"IDENTIFIER":"avantdroite"}</data>
+<value name="VALUE">
+<shadow type="dcMotor_typedEnum_direction" id="Y$;|f3]W-wGy;PP|E~o%">
+<field name="DIRECTION">REVERSE</field>
+</shadow>
+</value>
+<next>
+<block type="dcMotor_setProperty_Direction" id="x5nLTy`=2Z%sw4mKE1YI">
+<field name="IDENTIFIER">arrieredroiteAsDcMotor</field>
+<field name="PROP">Direction</field>
+<data>{"IDENTIFIER":"arrieredroite"}</data>
+<value name="VALUE">
+<shadow type="dcMotor_typedEnum_direction" id="=RNjN()b^3jGRB{sbk%~">
+<field name="DIRECTION">REVERSE</field>
+</shadow>
+</value>
+<next>
+<block type="dcMotor_setDualProperty_RunMode" id="R84}^zs;4v~!7D*uA6ZG">
+<field name="PROP">Mode</field>
+<field name="IDENTIFIER1">avantgaucheAsDcMotor</field>
+<field name="IDENTIFIER2">arrieregaucheAsDcMotor</field>
+<data>{"IDENTIFIER1":"avantgauche","IDENTIFIER2":"arrieregauche"}</data>
+<value name="VALUE1">
+<shadow type="dcMotor_typedEnum_runMode" id="j_A~828WrZDbBuXFUeF9">
+<field name="RUN_MODE">RUN_WITHOUT_ENCODER</field>
+</shadow>
+</value>
+<value name="VALUE2">
+<shadow type="dcMotor_typedEnum_runMode" id="Z*/zR_g9dh+_cE-%dEXs">
+<field name="RUN_MODE">RUN_WITHOUT_ENCODER</field>
+</shadow>
+</value>
+<next>
+<block type="dcMotor_setDualProperty_RunMode" id=",nKuX$YFol-}8#J8x=n*">
+<field name="PROP">Mode</field>
+<field name="IDENTIFIER1">avantdroiteAsDcMotor</field>
+<field name="IDENTIFIER2">arrieredroiteAsDcMotor</field>
+<data>{"IDENTIFIER1":"avantdroite","IDENTIFIER2":"arrieredroite"}</data>
+<value name="VALUE1">
+<shadow type="dcMotor_typedEnum_runMode" id="8zT|5,p+utVw/|^n6lJR">
+<field name="RUN_MODE">RUN_WITHOUT_ENCODER</field>
+</shadow>
+</value>
+<value name="VALUE2">
+<shadow type="dcMotor_typedEnum_runMode" id="AJfvn6q@9)(b,E+RG2^H">
+<field name="RUN_MODE">RUN_WITHOUT_ENCODER</field>
+</shadow>
+</value>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</statement>
+</block>
+<block type="procedures_defnoreturn" id="H6)Wzg9H3MJ$7ka$zI0;" x="-2338" y="272">
+<field name="NAME">configurePinpoint</field>
+<comment pinned="false" h="49" w="171">Configure the sensor.</comment>
+<data>{"commentPositionLeft":-45,"commentPositionTop":-74}</data>
+<statement name="STACK">
+<block type="comment" id="Oem)nDH${u`/NB^-HWFt">
+<field name="COMMENT">Set the odometry pod positions relative to the point that you want the position to be measured from.</field>
+<next>
+<block type="comment" id="G]PHBC6[tROZw#Xp?S}i">
+<field name="COMMENT"/>
+<next>
+<block type="comment" id="cudv]$^G!at%|J9itITg">
+<field name="COMMENT">The X pod offset refers to how far sideways from the tracking point the X (forward) odometry pod is.</field>
+<next>
+<block type="comment" id="xPeHrNwdIAahpxw(N:io">
+<field name="COMMENT">Left of the center is a positive number, right of center is a negative number.</field>
+<next>
+<block type="comment" id="!|m2CH@V]{g(Z)(cjyQ?">
+<field name="COMMENT"/>
+<next>
+<block type="comment" id="|UNougrHq=q1-+J.|%^Z">
+<field name="COMMENT">The Y pod offset refers to how far forwards from the tracking point the Y (strafe) odometry pod is.</field>
+<next>
+<block type="comment" id="YJ;W}OTC8vA%kd?*rzzn">
+<field name="COMMENT">Forward of center is a positive number, backwards is a negative number.</field>
+<next>
+<block type="goBildaPinpoint_setOffsets" id="%lKx]kDE-?onv42IBl{@">
+<field name="IDENTIFIER">pinpointAsGoBildaPinpoint</field>
+<comment pinned="true" h="197" w="402">These value are tuned for 3110-0002-0001 Product Insight #1.
+1. -3.4, -15.9
+2. 0.4, -16.4
+3. 0.6, -16.2</comment>
+<data>{"IDENTIFIER":"pinpoint","commentPositionLeft":-532,"commentPositionTop":-219}</data>
+<value name="X_OFFSET">
+<shadow type="math_number" id="wbk8^5IcvpDk-?,tr_(u">
+<field name="NUM">0.6</field>
+</shadow>
+</value>
+<value name="Y_OFFSET">
+<shadow type="math_number" id="[5YOF)NTqZycF,9+O_N@">
+<field name="NUM">-16.2</field>
+</shadow>
+</value>
+<value name="DISTANCE_UNIT">
+<shadow type="navigation_typedEnum_distanceUnit" id="w$w,b[RwwR%f_r)wS^u9">
+<field name="DISTANCE_UNIT">CM</field>
+</shadow>
+</value>
+<next>
+<block type="comment" id="F;n,dwprH^5}V.d(iDX[">
+<field name="COMMENT">Set the kind of pods used by your robot. If you're using goBILDA odometry pods, select either</field>
+<next>
+<block type="comment" id="8{3`tgC6*yWF`~}6E??4">
+<field name="COMMENT">the goBILDA_SWINGARM_POD, or the goBILDA_4_BAR_POD.</field>
+<next>
+<block type="comment" id="WBC$i(YAbX*oz5$e?^2s">
+<field name="COMMENT">If you're using another kind of odometry pod, use the second setEncoderResolution and input the</field>
+<next>
+<block type="comment" id="{N*UTq(ANq.OqOYR=$T6">
+<field name="COMMENT">number of ticks per unit of your odometry pod.</field>
+<next>
+<block type="goBildaPinpoint_setEncoderResolution_withPods" id="Bp}G.A2#:}/_^]HFTJLm">
+<field name="IDENTIFIER">pinpointAsGoBildaPinpoint</field>
+<data>{"IDENTIFIER":"pinpoint"}</data>
+<value name="PODS">
+<shadow type="goBildaPinpoint_typedEnum_goBildaOdometryPods" id="rn7Y_QOo(Pxn~19QpT?]">
+<field name="ODOMETRY_PODS">goBILDA_4_BAR_POD</field>
+</shadow>
+</value>
+<next>
+<block type="goBildaPinpoint_setEncoderResolution_withTicks" id="66i$/(.S;q.2NS_o|}Nj" disabled="true">
+<field name="IDENTIFIER">pinpointAsGoBildaPinpoint</field>
+<data>{"IDENTIFIER":"pinpoint"}</data>
+<value name="TICKS_PER_UNIT">
+<shadow type="math_number" id="eO3jlE_#Y:NC}Jj]L44o">
+<field name="NUM">13.26291192</field>
+</shadow>
+</value>
+<value name="DISTANCE_UNIT">
+<shadow type="navigation_typedEnum_distanceUnit" id="FD[.M^pl5IDq{%l-9!MW">
+<field name="DISTANCE_UNIT">MM</field>
+</shadow>
+</value>
+<next>
+<block type="comment" id="6e}mkoVEIX*b+E}:N8nu">
+<field name="COMMENT">Set the direction that each of the two odometry pods count. The X (forward) pod should</field>
+<next>
+<block type="comment" id="Ia{t#5oMvW6C]_x;e4xs">
+<field name="COMMENT">increase when you move the robot forward. And the Y (strafe) pod should increase when</field>
+<next>
+<block type="comment" id="?I~RA*-C_ou_;)Am$^zS">
+<field name="COMMENT">you move the robot to the left.</field>
+<next>
+<block type="goBildaPinpoint_setEncoderDirections" id="Qs;,T2?Ya,5BhyO~e3u=">
+<field name="IDENTIFIER">pinpointAsGoBildaPinpoint</field>
+<data>{"IDENTIFIER":"pinpoint"}</data>
+<value name="X_ENCODER">
+<shadow type="goBildaPinpoint_typedEnum_encoderDirection" id="Ek#5;EI_ocW~{t%/+sy]">
+<field name="ENCODER_DIRECTION">FORWARD</field>
+</shadow>
+</value>
+<value name="Y_ENCODER">
+<shadow type="goBildaPinpoint_typedEnum_encoderDirection" id="uBv2pV}=T!*,?}lWfZ`H">
+<field name="ENCODER_DIRECTION">REVERSED</field>
+</shadow>
+</value>
+<next>
+<block type="comment" id="[(*)Bk~ZT[]eRuh2RJ^`">
+<field name="COMMENT">Before running the robot, recalibrate the IMU. This needs to happen when the robot is stationary</field>
+<next>
+<block type="comment" id="l(%ME]gShI1cBOZ{W$Tx">
+<field name="COMMENT">The IMU will automatically calibrate when first powered on, but recalibrating before running</field>
+<next>
+<block type="comment" id="R.iYFnZ6stoQOQuf*.Gg">
+<field name="COMMENT">the robot is a good idea to ensure that the calibration is "good".</field>
+<next>
+<block type="comment" id="m%SD(I`(YTIEb52c7~hN">
+<field name="COMMENT">resetPosAndIMU will reset the position to 0,0,0 and also recalibrate the IMU.</field>
+<next>
+<block type="comment" id="?Kui+_fi_A$yYR^$GkA+">
+<field name="COMMENT">This is recommended before you run your autonomous, as a bad initial calibration can cause</field>
+<next>
+<block type="comment" id="m?A3G$FD9(UMpLi1+4@[">
+<field name="COMMENT">an incorrect starting value for x, y, and heading.</field>
+<next>
+<block type="goBildaPinpoint_resetPosAndIMU" id="o)_wmSBbkadOreVr3gAG">
+<field name="IDENTIFIER">pinpointAsGoBildaPinpoint</field>
+<data>{"IDENTIFIER":"pinpoint"}</data>
+<next>
+<block type="misc_callJava_noReturn" id="uM#2ylq!#gkrml3/hW,V">
+<mutation createDropdownFunctionName="" methodLookupString="org.firstinspires.ftc.teamcode.PinpointBlocks resetPosAndIMU() void" fullClassName="org.firstinspires.ftc.teamcode.PinpointBlocks" simpleName="PinpointBlocks" parameterCount="0" returnType="void" color="289" heading="call" comment="Resets the current position to 0,0,0 and recalibrates the Odometry Computer's internal IMU. Robot MUST Be stationary. Device takes a large number of samples, and uses those as the gyroscope zero-offset. This takes approximately 0.25 seconds." tooltip="" accessMethod="callJava" convertReturnValue=""/>
+<field name="CLASS_NAME">PinpointBlocks</field>
+<field name="METHOD_NAME">resetPosAndIMU</field>
+<comment pinned="false" h="80" w="160">Resets the current position to 0,0,0 and recalibrates the Odometry Computer's internal IMU. Robot MUST Be stationary. Device takes a large number of samples, and uses those as the gyroscope zero-offset. This takes approximately 0.25 seconds.</comment>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</statement>
+</block>
+<block type="procedures_defnoreturn" id="~h(|F?K.3@C*x}NK(}?c" x="-1543" y="834">
+<field name="NAME">X, Y and Yaw</field>
+<comment pinned="false" h="80" w="160">Describe this function...</comment>
+<data>{"commentPositionLeft":151,"commentPositionTop":-20}</data>
+<statement name="STACK">
+<block type="misc_callJava_noReturn" id="$n4WHdsP+_LW){1ya=j9">
+<mutation createDropdownFunctionName="" methodLookupString="org.firstinspires.ftc.teamcode.PinpointBlocks update() void" fullClassName="org.firstinspires.ftc.teamcode.PinpointBlocks" simpleName="PinpointBlocks" parameterCount="0" returnType="void" color="289" heading="call" comment="Call this once per loop to read new data from the Odometry Computer. Data will only update once this is called." tooltip="" accessMethod="callJava" convertReturnValue=""/>
+<field name="CLASS_NAME">PinpointBlocks</field>
+<field name="METHOD_NAME">update</field>
+<comment pinned="false" h="80" w="160">Call this once per loop to read new data from the Odometry Computer. Data will only update once this is called.</comment>
+<data>{"commentPositionLeft":-190,"commentPositionTop":-20}</data>
+<next>
+<block type="variables_set" id="r2q7uxbxphjjaq0t@l_|">
+<field name="VAR" id="3:!{1A/xy*YG)v`}P4vd">Yaw</field>
+<value name="VALUE">
+<block type="misc_callJava_return" id="=7u{0~zyC53/ktfpaL[]">
+<mutation createDropdownFunctionName="" methodLookupString="org.firstinspires.ftc.teamcode.PinpointBlocks orientation(org.firstinspires.ftc.robotcore.external.navigation.AngleUnit) double" fullClassName="org.firstinspires.ftc.teamcode.PinpointBlocks" simpleName="PinpointBlocks" parameterCount="1" returnType="double" color="147" heading="" comment="Returns the direction your robot is facing the unit of your choice" tooltip="You can get this in radians or degrees!" accessMethod="callJava_String" convertReturnValue="Number" argLabel0="" argType0="org.firstinspires.ftc.robotcore.external.navigation.AngleUnit" argAuto0=""/>
+<field name="CLASS_NAME">PinpointBlocks</field>
+<field name="METHOD_NAME">orientation</field>
+<comment pinned="false" h="69" w="251">Returns the direction your robot is facing the unit of your choice</comment>
+<data>{"commentPositionLeft":-40,"commentPositionTop":-105}</data>
+<value name="ARG0">
+<shadow type="navigation_typedEnum_angleUnit" id="CXU@*bi)/^}@fSl~qs%7">
+<field name="ANGLE_UNIT">DEGREES</field>
+</shadow>
+</value>
+</block>
+</value>
+<next>
+<block type="variables_set" id="9}OK5:L!/|WeGgw{V]sm">
+<field name="VAR" id="Wv4Vktwt~@]^Y^g,N:jr">X</field>
+<value name="VALUE">
+<block type="misc_callJava_return" id=")dO7M70I{2Qn@s=/r_C9">
+<mutation createDropdownFunctionName="" methodLookupString="org.firstinspires.ftc.teamcode.PinpointBlocks xPosition(org.firstinspires.ftc.robotcore.external.navigation.DistanceUnit) double" fullClassName="org.firstinspires.ftc.teamcode.PinpointBlocks" simpleName="PinpointBlocks" parameterCount="1" returnType="double" color="147" heading="" comment="Returns x position the unit of your choice" tooltip="You can get this in mm, inches, cm, and even meters!" accessMethod="callJava_String" convertReturnValue="Number" argLabel0="" argType0="org.firstinspires.ftc.robotcore.external.navigation.DistanceUnit" argAuto0=""/>
+<field name="CLASS_NAME">PinpointBlocks</field>
+<field name="METHOD_NAME">xPosition</field>
+<comment pinned="false" h="80" w="160">Returns x position the unit of your choice</comment>
+<data>{"commentPositionLeft":-40,"commentPositionTop":-105}</data>
+<value name="ARG0">
+<shadow type="navigation_typedEnum_distanceUnit" id="3gX36DxL{:/1F|MlVz2C">
+<field name="DISTANCE_UNIT">CM</field>
+</shadow>
+</value>
+</block>
+</value>
+<next>
+<block type="variables_set" id="|@kOi[5mZ#wFWW@d$qme">
+<field name="VAR" id="aCJ.DCA~SE#Z3v*SODn@">Y</field>
+<value name="VALUE">
+<block type="misc_callJava_return" id=";ixo@nH}GIeZWUb/|BSo">
+<mutation createDropdownFunctionName="" methodLookupString="org.firstinspires.ftc.teamcode.PinpointBlocks yPosition(org.firstinspires.ftc.robotcore.external.navigation.DistanceUnit) double" fullClassName="org.firstinspires.ftc.teamcode.PinpointBlocks" simpleName="PinpointBlocks" parameterCount="1" returnType="double" color="147" heading="" comment="Returns y position the unit of your choice" tooltip="You can get this in mm, inches, cm, and even meters!" accessMethod="callJava_String" convertReturnValue="Number" argLabel0="" argType0="org.firstinspires.ftc.robotcore.external.navigation.DistanceUnit" argAuto0=""/>
+<field name="CLASS_NAME">PinpointBlocks</field>
+<field name="METHOD_NAME">yPosition</field>
+<comment pinned="false" h="80" w="160">Returns y position the unit of your choice</comment>
+<value name="ARG0">
+<shadow type="navigation_typedEnum_distanceUnit" id="n%33pQ)^Va0kF8$mmue6">
+<field name="DISTANCE_UNIT">CM</field>
+</shadow>
+</value>
+</block>
+</value>
+<next>
+<block type="variables_set" id="`U9}yB:QMZ`Bn9!RrylL">
+<field name="VAR" id="8c$q`5z(R/%v8)eS9:Z4">Yaw_Pinpoint</field>
+<value name="VALUE">
+<block type="goBildaPinpoint_getHeading_withAngleUnit" id="u4#;xF3O#oQpj3HmX;OF">
+<field name="IDENTIFIER">pinpointAsGoBildaPinpoint</field>
+<data>{"IDENTIFIER":"pinpoint"}</data>
+<value name="ANGLE_UNIT">
+<shadow type="navigation_typedEnum_angleUnit" id="iqxTLU=/YSjZhVin*(tH">
+<field name="ANGLE_UNIT">DEGREES</field>
+</shadow>
+</value>
+</block>
+</value>
+<next>
+<block type="variables_set" id="K=kE0!d|v7OJtB4aJ!7)">
+<field name="VAR" id="J!^^Clmk/Yk?bJq!j6c}">X_Pinpoint</field>
+<value name="VALUE">
+<block type="goBildaPinpoint_getPosX" id="t)blur(d+]ICOtBIpfLX">
+<field name="IDENTIFIER">pinpointAsGoBildaPinpoint</field>
+<data>{"IDENTIFIER":"pinpoint"}</data>
+<value name="DISTANCE_UNIT">
+<shadow type="navigation_typedEnum_distanceUnit" id="T:~F_[s1]o/k`c5Bmrvg">
+<field name="DISTANCE_UNIT">CM</field>
+</shadow>
+</value>
+</block>
+</value>
+<next>
+<block type="variables_set" id="jc3kMd5x=kBrE?;=Bc6I">
+<field name="VAR" id=",)CZscs+IEktAhsn}28[">Y_Pinpoint</field>
+<value name="VALUE">
+<block type="goBildaPinpoint_getPosY" id="MwnV*O,ON:lSRTPqJ6Ob">
+<field name="IDENTIFIER">pinpointAsGoBildaPinpoint</field>
+<data>{"IDENTIFIER":"pinpoint"}</data>
+<value name="DISTANCE_UNIT">
+<shadow type="navigation_typedEnum_distanceUnit" id="y1*rW_Ps@2{#.[t#WLU}">
+<field name="DISTANCE_UNIT">CM</field>
+</shadow>
+</value>
+</block>
+</value>
+<next>
+<block type="procedures_callnoreturn" id="Ow/Bg#S@vtO1Xjm@W^2P">
+<mutation name="Telemetrie"/>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</statement>
+</block>
+<block type="procedures_defnoreturn" id="WtpyD@tEu+EoY=P9iY,D" deletable="false" x="-732" y="882">
+<field name="NAME">runOpMode</field>
+<comment pinned="false" h="131" w="550">This OpMode illustrates how to use the GoBildaPinpoint
+The OpMode assumes that the sensor is configured with a name of "pinpoint".
+
+See the sensor's product page: https://www.gobilda.com/pinpoint-odometry-computer-imu-sensor-fusion-for-2-wheel-odometry/</comment>
+<data>{"commentPositionLeft":-19,"commentPositionTop":-152}</data>
+<statement name="STACK">
+<block type="procedures_callnoreturn" id="81/E3M6LWyHxo^Q+=KEF">
+<mutation name="INIT"/>
+<next>
+<block type="goBildaPinpoint_resetPosAndIMU" id="$j=y=:$EX{g-.ggBhUDh">
+<field name="IDENTIFIER">pinpointAsGoBildaPinpoint</field>
+<data>{"IDENTIFIER":"pinpoint"}</data>
+<next>
+<block type="misc_callJava_noReturn" id=";B?6tf+TOwSR}-lI.?|1">
+<mutation createDropdownFunctionName="" methodLookupString="org.firstinspires.ftc.teamcode.PinpointBlocks resetPosAndIMU() void" fullClassName="org.firstinspires.ftc.teamcode.PinpointBlocks" simpleName="PinpointBlocks" parameterCount="0" returnType="void" color="289" heading="call" comment="Resets the current position to 0,0,0 and recalibrates the Odometry Computer's internal IMU. Robot MUST Be stationary. Device takes a large number of samples, and uses those as the gyroscope zero-offset. This takes approximately 0.25 seconds." tooltip="" accessMethod="callJava" convertReturnValue=""/>
+<field name="CLASS_NAME">PinpointBlocks</field>
+<field name="METHOD_NAME">resetPosAndIMU</field>
+<comment pinned="false" h="80" w="160">Resets the current position to 0,0,0 and recalibrates the Odometry Computer's internal IMU. Robot MUST Be stationary. Device takes a large number of samples, and uses those as the gyroscope zero-offset. This takes approximately 0.25 seconds.</comment>
+<next>
+<block type="linearOpMode_waitForStart" id=":`$wN_ci`O;o6P0~.(+g">
+<next>
+<block type="controls_if" id="}Q?5mbxSO8Di;i!__6[y">
+<value name="IF0">
+<block type="linearOpMode_opModeIsActive" id=")o%YFX/#9kvv^sgXr4~5"/>
+</value>
+<statement name="DO0">
+<block type="controls_whileUntil" id="^0Kagy/e+Ea{rbZPv2G6">
+<field name="MODE">WHILE</field>
+<value name="BOOL">
+<block type="linearOpMode_opModeIsActive" id="e)cr{!2VIET83s,JWC.="/>
+</value>
+<statement name="DO">
+<block type="procedures_callnoreturn" id="bK1J_!!j)#N@b})6`17u">
+<mutation name="X, Y and Yaw"/>
+<next>
+<block type="procedures_callnoreturn" id="O%8wTAC41/I_X(H(Pmua">
+<mutation name="Telemetrie"/>
+</block>
+</next>
+</block>
+</statement>
+</block>
+</statement>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</statement>
+</block>
+</xml>
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<Extra>
+<OpModeMeta flavor="TELEOP" group="" autoTransition="" />
+<Enabled value="true" />
+</Extra>
